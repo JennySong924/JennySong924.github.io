@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="grid-inverse wrap content" >
+    <div >
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }} 
+    {{ range $pages.GroupByDate "2006"}} 
+    <h2 >{{ .Key}}年文章</h2>
+    <ul style="list-style: initial;padding-left: 1rem">
+        {{ range .Pages}}
+        <li style="padding-bottom: 0.3rem"><a href="{{.Permalink}}" class="nav-link" title="{{ .Title }}">{{ .Title }}--{{.Date.Format "2006-01-02"}}</a></li>
+        {{ end}}
+    </ul>
+     {{ end}}
+    </div>
+
+    {{- partial "sidebar" . }}
+</div>
+{{ end }}
