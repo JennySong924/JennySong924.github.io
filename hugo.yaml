@@ -3,3 +3,17 @@ languageCode: en-us
 title: My New Hugo Site
 theme: ["PaperMod"]
 sectionPagesMenu: main
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: Reading
+    pageRef: /readings
+    weight: 20
+  - name: Statistics
+    pageRef: /stats
+    weight: 30
+  - name: Life
+    pageRef: /posts
+    weight: 40
