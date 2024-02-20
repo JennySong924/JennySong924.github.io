@@ -4,13 +4,25 @@ title: J Song
 theme: ["PaperMod"]
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 10
+      weight: 20
     - identifier: collection
       name: Collections
       url: /collection/
+      weight: 30
+    - identifier: reading
+      name: Reading
+      url: /posts/reading
+      weight: 10
+    - identifier: life
+      name: Life
+      url: /posts/life
       weight: 20
 
 
