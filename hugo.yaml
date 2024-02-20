@@ -1,5 +1,4 @@
-url: "https://jennysong924.github.io/"
-baseURL: https://example.org/
+baseURL: https://jennysong924.github.io/
 languageCode: en-us
 title: My New Hugo Site
 theme: ["PaperMod"]
