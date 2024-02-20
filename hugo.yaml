@@ -16,8 +16,4 @@ menu:
       name: Collections
       url: /collection/
       weight: 30
-
-
-
-# About Me:
-# ???
+foo: bar
