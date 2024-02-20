@@ -16,13 +16,14 @@ menu:
       name: Collections
       url: /collection/
       weight: 30
+  posts:
     - identifier: reading
       name: Reading
-      url: /posts/reading
+      url: /posts/reading/
       weight: 10
     - identifier: life
       name: Life
-      url: /posts/life
+      url: /posts/life/
       weight: 20
 
 
