@@ -16,16 +16,7 @@ menu:
       name: Collections
       url: /collection/
       weight: 30
-    - identifier: reading
-      name: Reading
-      parent: posts
-      url: /posts/reading/
-      weight: 10
-    - identifier: life
-      name: Life
-      parent: posts
-      url: /posts/life/
-      weight: 20
+
 
 
 # About Me:
