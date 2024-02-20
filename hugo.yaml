@@ -2,26 +2,17 @@ baseURL: https://jennysong924.github.io
 languageCode: en-us
 title: J Song
 theme: ["PaperMod"]
-# sectionPagesMenu: main
-# menus:
-#   main:
-#   - name: Home
-#     pageRef: /
-#     weight: 10
-#   - name: Posts
-#     pageRef: /posts
-#     weight: 20
-#   - name: Collection
-#     pageRef: /collection
-#     weight: 30
-#   - name: Reading
-#     pageRef: /posts/reading
-#     parent: Posts
-#     weight: 2
-#   - name: Life
-#     pageRef: /posts/life
-#     parent: Posts
-#     weight: 4
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: collection
+      name: Collections
+      url: /collection/
+      weight: 20
+
 
 # About Me:
 # ???
