@@ -2,7 +2,7 @@ baseURL: https://jennysong924.github.io
 languageCode: en-us
 title: My New Hugo Site
 theme: ["PaperMod"]
-sectionPagesMenu: main
+# sectionPagesMenu: main
 menus:
   main:
   - name: Home
