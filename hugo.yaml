@@ -38,6 +38,7 @@ params:
       alt: LOGO TEXT
       img: # a path to the logo
   footer: "&copy; [J Song](https://jennysong924.github.io) {Year}"
+  twitterImage: "/images/logo.png"
 
 markup:
   highlight:
