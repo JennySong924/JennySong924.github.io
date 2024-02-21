@@ -1,5 +1,5 @@
----
-title: "{{ replace .Name "-" " " | 老人与海 }}"
++++
+title: "{{ replace 老人与海 "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 author: ["作者"]
@@ -26,7 +26,7 @@ cover:
     caption: ""
     alt: ""
     relative: false
----
++++
 
 
 <!--\more--> # 此处的“\”用于转义，否则无法正常显示，实际使用须删去。
