@@ -36,9 +36,9 @@ params:
   logo:
     en:
       alt: LOGO TEXT
-      img: # a path to the logo
+      img: "/images/logo.png"
   footer: "&copy; [J Song](https://jennysong924.github.io) {Year}"
-  twitterImage: "/images/logo.png"
+  # twitterImage: "/images/logo.png"
 
 markup:
   highlight:
