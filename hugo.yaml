@@ -1,7 +1,7 @@
 # baseURL: https://jennysong924.github.io
 # languageCode: en-us
 # title: J Song
-# theme: ["PaperMod"]
+# theme: ["hugo-paged"]
 # menu:
 #   main:
 #     - identifier: home
