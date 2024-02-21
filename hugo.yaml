@@ -34,7 +34,7 @@ menu:
 params:
   description: "这是一个纯粹的博客......."
   logo:
-    en:
+    main:
       alt: LOGO TEXT
       img: "/images/logo.png"
   footer: "&copy; [J Song](https://jennysong924.github.io) {Year}"
